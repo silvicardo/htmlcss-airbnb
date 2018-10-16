@@ -1,0 +1,85 @@
+
+body {
+  margin: 10px 10px;
+  background: black
+}
+
+header {
+  position: relative;
+  width: 100vw;
+  height: 100px;
+  color: white;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#citiescontainer {
+  width: 100vw;
+  margin: 0 auto
+}
+
+.colonna {
+  display: inline-block;
+  width: 49vw;
+  height: 960px;
+}
+
+.citta {
+  position:relative;
+  height: 300px;
+  margin : 15px 15px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  color: white ;
+}
+
+.citta > label {
+  font-size: 4vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#roma {
+  background: url('images/roma.jpeg');
+  background-position: center;
+  background-size: cover
+}
+
+#copenaghen {
+  background: url('images/copenaghen.jpg');
+  background-position: center;
+  background-size: cover
+}
+
+#tokyo {
+  background: url('images/tokyo.jpg');
+  background-position: center;
+  background-size: cover
+}
+
+#newyork {
+  background: url('images/newyork.jpeg');
+  background-position: center;
+  background-size: cover
+}
+
+#sidney {
+  background: url('images/sidney.jpg');
+  background-position: center;
+  background-size: cover
+}
+
+#raccooncity {
+  background: url('images/raccooncity.jpg');
+  background-position: center;
+  background-size: cover
+}
